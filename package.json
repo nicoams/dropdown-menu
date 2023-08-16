@@ -12,7 +12,7 @@
     "sass": "^1.65.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://nicoams.github.io/dropdwon-menu/",
+  "homepage": "https://nicoams.github.io/dropdown-menu/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
