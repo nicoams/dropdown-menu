@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src="/assets/images/logo.svg" alt="logo"></img>
+        <img src="/images/logo.svg" alt="logo"></img>
       </div>
       <div className="menu-button">
         <button
