@@ -14,7 +14,7 @@ function App() {
           <picture>
             <source
               media="(min-width:1000px)"
-              srcSet="/assets/images/image-hero-desktop.png"
+              srcSet={process.env.PUBLIC_URL + "/assets/images/image-hero-desktop.png"}
             ></source>
             <img src="/assets/images/image-hero-mobile.png" alt="" />
           </picture>
