@@ -25,7 +25,7 @@ const Header = () => {
           name="menu"
           onClick={() => handleClick("menu")}
         >
-          <img src="/assets/images/icon-menu.svg" alt="menu"></img>
+          <img src="/images/icon-menu.svg" alt="menu"></img>
         </button>
       </div>
       <Menu

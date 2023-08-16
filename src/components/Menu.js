@@ -7,19 +7,17 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
 
   let featuresIconPath;
   if (!isActive["features"]) {
-    featuresIconPath = "/assets/images/icon-arrow-down.svg";
+    featuresIconPath = "/images/icon-arrow-down.svg";
   } else {
-    featuresIconPath = "/assets/images/icon-arrow-up.svg";
+    featuresIconPath = "/images/icon-arrow-up.svg";
   }
 
   let companyIconPath;
   if (!isActive["company"]) {
-    companyIconPath = "/assets/images/icon-arrow-down.svg";
+    companyIconPath = "/images/icon-arrow-down.svg";
   } else {
-    companyIconPath = "/assets/images/icon-arrow-up.svg";
+    companyIconPath = "/images/icon-arrow-up.svg";
   }
-
-  console.log("isActive", isActive);
 
   return (
     <div className={`menu-container ${isActive["menu"] ? "active" : ""}`}>
@@ -31,7 +29,7 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
             onClick={() => handleClick("menu")}
           >
             <img
-              src="/assets/images/icon-close-menu.svg"
+              src="/images/icon-close-menu.svg"
               alt="close menu"
             ></img>
           </button>
@@ -52,19 +50,19 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
               }`}
             >
               <button>
-                <img src="/assets/images/icon-todo.svg" alt=""></img>
+                <img src="/images/icon-todo.svg" alt=""></img>
                 <p>Todo List</p>
               </button>
               <button>
-                <img src="/assets/images/icon-calendar.svg" alt=""></img>
+                <img src="/images/icon-calendar.svg" alt=""></img>
                 <p>Calendar</p>
               </button>
               <button>
-                <img src="/assets/images/icon-reminders.svg" alt=""></img>
+                <img src="/images/icon-reminders.svg" alt=""></img>
                 <p>Reminders</p>
               </button>
               <button>
-                <img src="/assets/images/icon-planning.svg" alt=""></img>
+                <img src="/images/icon-planning.svg" alt=""></img>
                 <p>Planning</p>
               </button>
             </div>

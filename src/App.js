@@ -33,10 +33,10 @@ function App() {
       </section>
 
       <footer>
-        <img src="/assets/images/client-databiz.svg" alt="" />
-        <img src="/assets/images/client-audiophile.svg" alt="" />
-        <img src="/assets/images/client-meet.svg" alt="" />
-        <img src="/assets/images/client-maker.svg" alt="" />
+        <img src="/images/client-databiz.svg" alt="" />
+        <img src="/images/client-audiophile.svg" alt="" />
+        <img src="/images/client-meet.svg" alt="" />
+        <img src="/images/client-maker.svg" alt="" />
       </footer>
     </div>
   );
