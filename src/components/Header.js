@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src="/images/logo.svg" alt="logo"></img>
+        <img src={process.env.PUBLIC_URL + "/images/logo.svg"} alt="logo"></img>
       </div>
       <div className="menu-button">
         <button
@@ -25,7 +25,7 @@ const Header = () => {
           name="menu"
           onClick={() => handleClick("menu")}
         >
-          <img src="/images/icon-menu.svg" alt="menu"></img>
+          <img src={process.env.PUBLIC_URL + "/images/icon-menu.svg"} alt="menu"></img>
         </button>
       </div>
       <Menu

@@ -15,15 +15,17 @@ function App() {
             <source
               media="(min-width:1000px)"
               srcSet={process.env.PUBLIC_URL + "/images/image-hero-desktop.png"}
+              alt="Man on feet holding a laptop with his left hand while typing with his right one."
             ></source>
-            <img src="/images/image-hero-mobile.png" alt="" />
+            <img
+              src={process.env.PUBLIC_URL + "/images/image-hero-mobile.png"}
+              alt="Man on feet holding a laptop with his left hand while typing with his right one."
+            />
           </picture>
         </div>
 
         <div className="hero-text">
-          <h1>
-            Make remote work
-          </h1>
+          <h1>Make remote work</h1>
           <p>
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
@@ -33,10 +35,22 @@ function App() {
       </section>
 
       <footer>
-        <img src="/images/client-databiz.svg" alt="" />
-        <img src="/images/client-audiophile.svg" alt="" />
-        <img src="/images/client-meet.svg" alt="" />
-        <img src="/images/client-maker.svg" alt="" />
+        <img
+          src={process.env.PUBLIC_URL + "/images/client-databiz.svg"}
+          alt="databiz logo"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/images/client-audiophile.svg"}
+          alt="audiophile logo"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/images/client-meet.svg"}
+          alt="meet logo"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/images/client-maker.svg"}
+          alt="maker logo"
+        />
       </footer>
     </div>
   );

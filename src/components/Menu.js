@@ -29,7 +29,7 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
             onClick={() => handleClick("menu")}
           >
             <img
-              src="/images/icon-close-menu.svg"
+              src={process.env.PUBLIC_URL + "/images/icon-close-menu.svg"}
               alt="close menu"
             ></img>
           </button>
@@ -42,7 +42,7 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
               onClick={() => handleClick("features")}
             >
               <p>Features</p>
-              <img src={featuresIconPath} alt=""></img>
+              <img src={process.env.PUBLIC_URL + featuresIconPath} alt=""></img>
             </button>
             <div
               className={`inner-options ${
@@ -50,19 +50,19 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
               }`}
             >
               <button>
-                <img src="/images/icon-todo.svg" alt=""></img>
+                <img src={process.env.PUBLIC_URL + "/images/icon-todo.svg"} alt=""></img>
                 <p>Todo List</p>
               </button>
               <button>
-                <img src="/images/icon-calendar.svg" alt=""></img>
+                <img src={process.env.PUBLIC_URL + "/images/icon-calendar.svg"} alt=""></img>
                 <p>Calendar</p>
               </button>
               <button>
-                <img src="/images/icon-reminders.svg" alt=""></img>
+                <img src={process.env.PUBLIC_URL + "/images/icon-reminders.svg"} alt=""></img>
                 <p>Reminders</p>
               </button>
               <button>
-                <img src="/images/icon-planning.svg" alt=""></img>
+                <img src={process.env.PUBLIC_URL + "/images/icon-planning.svg"} alt=""></img>
                 <p>Planning</p>
               </button>
             </div>
@@ -74,7 +74,7 @@ const Menu = ({ isActive, setIsActive, handleClick }) => {
               onClick={() => handleClick("company")}
             >
               <p>Company</p>
-              <img src={companyIconPath} alt=""></img>
+              <img src={process.env.PUBLIC_URL + companyIconPath} alt=""></img>
             </button>
             <div
               className={`inner-options ${isActive["company"] ? "active" : ""}`}
