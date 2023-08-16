@@ -1,0 +1,27 @@
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+
+    .menu-button{
+        button{
+            border: none;
+            background-color: transparent;
+        }
+    }
+}
+
+@media (min-width: 1000px){
+    header {
+        padding: 1rem 2rem;
+        .menu-button{
+            button{
+                display: none;
+            }
+        }
+    }
+}
