@@ -69,20 +69,21 @@
       flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
+      position: relative;
 
       .hero-img {
         width: 50%;
         text-align: right;
 
         img {
-          width: 70%;
+          width: 90%;
         }
       }
 
       .hero-text {
         height: 50%;
         width: 50%;
-        padding: 2rem 10rem 2rem 2rem;
+        padding: 2rem 7rem 2rem 2rem;
         text-align: left;
 
         h1 {
@@ -108,14 +109,22 @@
 
         }
       }
+
+      footer {
+        width: 37%;
+        position: absolute;
+        bottom: 0rem;
+        left: 0rem;
+        transform: translateY(25%);
+        justify-content: space-between;
+        margin-left: 2rem;
+
+        img{
+          width: 20%;
+        }
+      }
     }
 
-    footer {
-      width: 35%;
 
-      position: absolute;
-      bottom: 0.5rem;
-      left: 9rem;
-    }
   }
 }

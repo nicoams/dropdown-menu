@@ -32,26 +32,26 @@ function App() {
           </p>
           <button>Learn more</button>
         </div>
-      </section>
 
-      <footer>
-        <img
-          src={process.env.PUBLIC_URL + "/images/client-databiz.svg"}
-          alt="databiz logo"
-        />
-        <img
-          src={process.env.PUBLIC_URL + "/images/client-audiophile.svg"}
-          alt="audiophile logo"
-        />
-        <img
-          src={process.env.PUBLIC_URL + "/images/client-meet.svg"}
-          alt="meet logo"
-        />
-        <img
-          src={process.env.PUBLIC_URL + "/images/client-maker.svg"}
-          alt="maker logo"
-        />
-      </footer>
+        <footer>
+          <img
+            src={process.env.PUBLIC_URL + "/images/client-databiz.svg"}
+            alt="databiz logo"
+          />
+          <img
+            src={process.env.PUBLIC_URL + "/images/client-audiophile.svg"}
+            alt="audiophile logo"
+          />
+          <img
+            src={process.env.PUBLIC_URL + "/images/client-meet.svg"}
+            alt="meet logo"
+          />
+          <img
+            src={process.env.PUBLIC_URL + "/images/client-maker.svg"}
+            alt="maker logo"
+          />
+        </footer>
+      </section>
     </div>
   );
 }
